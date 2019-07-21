@@ -12,9 +12,9 @@ class App extends Component{
     return (
       <div className="App">
         <div className="navbar">
-          <h2 className="center">Tiny Book Library</h2>
-          <span className="span_link"><Link to="/">Post A Book</Link></span>
-          <span className="span_link"><Link to="/books">All Books</Link></span>
+          <h2 className="center">Tiny Book Library System</h2>
+          <span className="span_link"><Link to="/">Add Book</Link></span>
+          <span className="span_link"><Link to="/books">View Books</Link></span>
         </div>
         <Switch>
           <Route exact path="/" component={PostBook}/>

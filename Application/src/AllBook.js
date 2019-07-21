@@ -30,7 +30,6 @@ class AllBook extends Component {
                 {Object.keys(filteredBooks).length !== 0 ?
                 <input className="search-box" type="text" placeholder="Search by Book name..." value={this.state.search} onChange={this.updateSearch.bind(this)}/> : ""}
                 
-                {/*Arrow function to map each added object*/}
                 {filteredBooks.map((post) =>(
                      
                     <div key={post.id}>
