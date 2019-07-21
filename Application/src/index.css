@@ -56,7 +56,16 @@ a:hover {
 .button-cursor{
   cursor: pointer;
 }
+
+.search-box{
+  margin: 10px 30%;
+  width: 40%;
+  height: 30px;
+}
   
+.span_link{
+  padding: 0px 10px 0px 5px;
+}
 .post-heading {
   text-align:center;
   font-weight:400;

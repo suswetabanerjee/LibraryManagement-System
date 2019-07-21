@@ -5,12 +5,16 @@ import App from './App';
 import { createStore} from 'redux';
 import postReducer from './reducers/postReducer';
 import {Provider} from 'react-redux';
+import { BrowserRouter} from 'react-router-dom';
 
 const store = createStore(postReducer);
 ReactDOM.render(
-    <Provider store = {store}>
-        <App/>
-    </Provider>,
+    <BrowserRouter>
+        <Provider store = {store}>
+            <App/>
+        </Provider>
+    </BrowserRouter>,
+    
  document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change

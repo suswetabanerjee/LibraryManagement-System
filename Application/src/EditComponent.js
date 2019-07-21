@@ -23,10 +23,10 @@ class EditComponent extends Component {
                 <h1 className="post-heading">Update Book</h1>
                 <form className="form" onSubmit = {this.handleEdit}>
         
-                    <input required type="text" ref={(input) => this.getTitle = input} placeholder="Update book name"></input><br/>
-                    <input required type="number" ref={(input) => this.getNumber = input} placeholder="Update book number"></input><br/>
-                    <input required type="text" ref={(input) => this.getAuthor = input} placeholder="Update author name"></input><br/>
-                    <textarea required rows="5" ref={(input) => this.getDescription = input} cols="28" placeholder="Update Description" /><br/>
+                    <input required type="text" ref={(input) => this.getTitle = input} defaultValue={this.props.post.title} placeholder="Update book name"></input><br/>
+                    <input required type="number" ref={(input) => this.getNumber = input} defaultValue={this.props.post.number} placeholder="Update book number"></input><br/>
+                    <input required type="text" ref={(input) => this.getAuthor = input} defaultValue={this.props.post.author} placeholder="Update author name"></input><br/>
+                    <textarea required rows="5" ref={(input) => this.getDescription = input} defaultValue={this.props.post.description} cols="28" placeholder="Update Description" /><br/>
                     <button className="button-cursor">Update</button>
         
                 </form>

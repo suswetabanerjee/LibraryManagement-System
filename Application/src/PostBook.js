@@ -2,6 +2,9 @@ import React, {Component} from 'react';
 import {connect} from 'react-redux';
 
 class PostBook extends Component{
+    constructor(props){
+        super(props);
+    }
     handleSubmit = (e) =>{
         e.preventDefault();
 
