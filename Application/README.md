@@ -6,7 +6,7 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Go to the following relative path and start the application : tiny-book-library-master\src
+Go to the following relative path and start the application : LibraryManagement-System/Application/src/
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
